@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	895989793	DownButton			\Default Work Unit\DownButton	
+	947693510	UpButton			\Default Work Unit\UpButton	
+	2543746130	LeftButton			\Default Work Unit\LeftButton	
+	3691826278	Incorrect			\Default Work Unit\Incorrect	
+	4126251273	Correct			\Default Work Unit\Correct	
+	4158285989	GameOver			\Default Work Unit\GameOver	
+	4227192577	RightButton			\Default Work Unit\RightButton	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23441363	LeftButton	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\LeftButton_A9397620.wem		\Actor-Mixer Hierarchy\Default Work Unit\LeftButton		95604
+	115715837	DownButton	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\DownButton_84B00D57.wem		\Actor-Mixer Hierarchy\Default Work Unit\DownButton		16350
+	184223522	UpButton	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\UpButton_0E12CB8D.wem		\Actor-Mixer Hierarchy\Default Work Unit\UpButton		268408
+	399813220	Correct	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\Right_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Correct		367380
+	491521567	GameOver	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\GameOver_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\GameOver		253504
+	662700295	Incorrect	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\Wrong_CC87FBFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Incorrect		294976
+	722395621	RightButton	C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\SFX\RightButton_91E315D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\RightButton		471832
+

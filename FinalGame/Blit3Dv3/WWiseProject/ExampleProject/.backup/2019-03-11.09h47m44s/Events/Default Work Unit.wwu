@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" SchemaVersion="85">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Roar" ID="{AC03B9A1-23B7-461A-8426-5FF85DF20F5D}">
+					<ChildrenList>
+						<Action Name="" ID="{357C2762-9B33-4560-8390-5007B74F08E4}" ShortID="45489417">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="jaguar" ID="{2B67B559-B669-40C6-B2F6-4E51497BC789}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Drums" ID="{CD2454A3-2C62-4AD2-8975-9C46E9B610FF}">
+					<ChildrenList>
+						<Action Name="" ID="{173EFD41-BF88-4138-A519-CB215A090F42}" ShortID="1021962003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="drumloop" ID="{17C6B9C0-BC4D-4B01-BD86-3EDADCC97360}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

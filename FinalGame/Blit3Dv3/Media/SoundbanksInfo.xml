@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\Media\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\FinalGame\Blit3Dv3\WWiseProject\ExampleProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4126251273" Name="Correct" ObjectPath="\Events\Default Work Unit\Correct"/>
+				<Event Id="895989793" Name="DownButton" ObjectPath="\Events\Default Work Unit\DownButton"/>
+				<Event Id="4158285989" Name="GameOver" ObjectPath="\Events\Default Work Unit\GameOver"/>
+				<Event Id="3691826278" Name="Incorrect" ObjectPath="\Events\Default Work Unit\Incorrect"/>
+				<Event Id="2543746130" Name="LeftButton" ObjectPath="\Events\Default Work Unit\LeftButton"/>
+				<Event Id="4227192577" Name="RightButton" ObjectPath="\Events\Default Work Unit\RightButton"/>
+				<Event Id="947693510" Name="UpButton" ObjectPath="\Events\Default Work Unit\UpButton"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="23441363" Language="SFX">
+					<ShortName>LeftButton.wav</ShortName>
+					<Path>SFX\LeftButton_A9397620.wem</Path>
+				</File>
+				<File Id="115715837" Language="SFX">
+					<ShortName>DownButton.wav</ShortName>
+					<Path>SFX\DownButton_84B00D57.wem</Path>
+				</File>
+				<File Id="184223522" Language="SFX">
+					<ShortName>UpButton.wav</ShortName>
+					<Path>SFX\UpButton_0E12CB8D.wem</Path>
+				</File>
+				<File Id="399813220" Language="SFX">
+					<ShortName>Right.wav</ShortName>
+					<Path>SFX\Right_CC87FBFB.wem</Path>
+				</File>
+				<File Id="491521567" Language="SFX">
+					<ShortName>GameOver.wav</ShortName>
+					<Path>SFX\GameOver_CC87FBFB.wem</Path>
+				</File>
+				<File Id="662700295" Language="SFX">
+					<ShortName>Wrong.wav</ShortName>
+					<Path>SFX\Wrong_CC87FBFB.wem</Path>
+				</File>
+				<File Id="722395621" Language="SFX">
+					<ShortName>RightButton.wav</ShortName>
+					<Path>SFX\RightButton_91E315D7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

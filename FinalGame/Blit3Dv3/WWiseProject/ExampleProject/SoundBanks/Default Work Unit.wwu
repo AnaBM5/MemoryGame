@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B5007FCD-95C9-4287-8A29-1AEC9C573286}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{B5007FCD-95C9-4287-8A29-1AEC9C573286}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MainBank" ID="{559B6671-53FA-4B79-ABCC-23E49B3F5256}">
+					<ObjectInclusionList>
+						<ObjectRef Name="LeftButton" ID="{8C33F05C-7476-4203-B952-4B1B31269E53}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="GameOver" ID="{F45FA647-68EB-4338-9897-B7DD1971E7D3}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DownButton" ID="{76CC0584-4036-4510-B102-AFD3D05EC902}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Incorrect" ID="{BC46C6A6-C8BD-4574-8E9C-E99A5500B35F}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="RightButton" ID="{56742155-5ABE-4587-9B54-E587FE27773B}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="UpButton" ID="{BEAE4753-EBC8-4773-BF47-5CD6EFDF1174}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Correct" ID="{E46D02E2-E2F0-4D4A-8309-1C65557DE560}" WorkUnitID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

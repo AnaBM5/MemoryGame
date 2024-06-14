@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\Audio_template_Blit3Dv3_Wwise2018.1.11.6987\Blit3Dv3\WWiseProject\ExampleProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\Audio_template_Blit3Dv3_Wwise2018.1.11.6987\Blit3Dv3\WWiseProject\ExampleProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\Audio_template_Blit3Dv3_Wwise2018.1.11.6987\Blit3Dv3\WWiseProject\ExampleProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\anabm\Documents\Classes\SoundDesign\Darren\Audio_template_Blit3Dv3_Wwise2018.1.11.6987\Blit3Dv3\WWiseProject\ExampleProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2880737896" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\MainBank</ObjectPath>
+			<ShortName>MainBank</ShortName>
+			<Path>MainBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2726606664" Name="Drums" ObjectPath="\Events\Default Work Unit\Drums"/>
+				<Event Id="2110808665" Name="Roar" ObjectPath="\Events\Default Work Unit\Roar"/>
+				<Event Id="3190558449" Name="Tem2" ObjectPath="\Events\Default Work Unit\Tem2"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="202020640" Language="SFX">
+					<ShortName>jaguar.wav</ShortName>
+					<Path>SFX\jaguar_CC87FBFB.wem</Path>
+				</File>
+				<File Id="248739299" Language="SFX">
+					<ShortName>drumloop.wav</ShortName>
+					<Path>SFX\drumloop_0A288869.wem</Path>
+				</File>
+				<File Id="445736183" Language="SFX">
+					<ShortName>tem2.wav</ShortName>
+					<Path>SFX\tem2_CC87FBFB.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

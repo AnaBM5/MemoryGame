@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B3E34544-FA50-42CD-8E93-53F89B178D53}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Correct" ID="{E46D02E2-E2F0-4D4A-8309-1C65557DE560}">
+					<ChildrenList>
+						<Action Name="" ID="{8E6A25EE-66E9-40E9-82E2-3B96C4D5AA46}" ShortID="672315556">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Correct" ID="{8B9F9E03-F269-498F-B093-0C91DC93E640}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Incorrect" ID="{BC46C6A6-C8BD-4574-8E9C-E99A5500B35F}">
+					<ChildrenList>
+						<Action Name="" ID="{B9CAE7D7-E311-4492-8102-A8D41239A02D}" ShortID="885974554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Incorrect" ID="{DA70EBBA-3B44-4F35-AA4E-6305BEA59688}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DownButton" ID="{76CC0584-4036-4510-B102-AFD3D05EC902}">
+					<ChildrenList>
+						<Action Name="" ID="{5953BEFC-F681-4175-8E74-DA080C07E691}" ShortID="473353873">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DownButton" ID="{5387F2B4-E27D-498E-890E-AA6E6531E130}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UpButton" ID="{BEAE4753-EBC8-4773-BF47-5CD6EFDF1174}">
+					<ChildrenList>
+						<Action Name="" ID="{A64B1358-E6B0-474A-BBDA-FECDD81C1540}" ShortID="519242836">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UpButton" ID="{1F420946-F3BF-47DD-8382-6A657EA2130C}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LeftButton" ID="{8C33F05C-7476-4203-B952-4B1B31269E53}">
+					<ChildrenList>
+						<Action Name="" ID="{61C2C515-EB82-44A0-8667-72099B346F4C}" ShortID="764209883">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LeftButton" ID="{1C52C894-5ADD-4057-889D-7E4169C2A778}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RightButton" ID="{56742155-5ABE-4587-9B54-E587FE27773B}">
+					<ChildrenList>
+						<Action Name="" ID="{9783DCD8-190A-42C7-B4A4-7AD0951FAECE}" ShortID="733336582">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RightButton" ID="{0A68CB8C-9537-4F8E-B791-48ABABCECBCB}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameOver" ID="{F45FA647-68EB-4338-9897-B7DD1971E7D3}">
+					<ChildrenList>
+						<Action Name="" ID="{C24AB04F-AB81-4DA0-B34A-284BF8A05399}" ShortID="344184235">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameOver" ID="{5229A07F-5AEA-42FE-B579-05623A8102FD}" WorkUnitID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B82BA114-9642-4416-BB33-B4B0B08BCC82}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="drumloop" ID="{17C6B9C0-BC4D-4B01-BD86-3EDADCC97360}" ShortID="910675827" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="drumloop" ID="{A780B245-8539-438D-95E6-3644EB293EFB}" ShortID="248739299">
+							<Language>SFX</Language>
+							<AudioFile>drumloop.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="drumloop" ID="{A780B245-8539-438D-95E6-3644EB293EFB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="jaguar" ID="{2B67B559-B669-40C6-B2F6-4E51497BC789}" ShortID="1038843597" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9E244EEF-AF49-4E44-8525-B1A373FFC194}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4C2D42C6-60EB-4074-9292-901C94AE71E5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="jaguar" ID="{AF1B6E39-A41C-4C4F-A07C-E91AEA459823}" ShortID="202020640">
+							<Language>SFX</Language>
+							<AudioFile>jaguar.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="jaguar" ID="{AF1B6E39-A41C-4C4F-A07C-E91AEA459823}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
